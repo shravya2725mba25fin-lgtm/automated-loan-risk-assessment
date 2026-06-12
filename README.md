@@ -1,135 +1,159 @@
-# 🤖 AI-Powered Loan Approval Automation
+# Loan Approval Automation using n8n
 
-An intelligent Loan Approval Automation System built using **n8n**, **Google Sheets**, **JavaScript**, and **Gmail** that automates the loan screening and notification process.
+## Project Overview
 
-The workflow reads applicant data from Google Sheets, evaluates financial risk using predefined business logic, categorizes applicants into different risk levels, updates the dataset, and automatically sends personalized email notifications.
+This project automates the loan approval process using n8n workflow automation. The system evaluates applicant risk levels and automatically sends appropriate email notifications based on the loan assessment.
 
----
+## Objectives
 
-## 🚀 Features
+* Automate loan application processing
+* Classify applicants into risk categories
+* Send automated email notifications
+* Improve decision-making efficiency
+* Visualize loan insights through dashboards
 
-- Automated Loan Risk Assessment
-- AI-inspired Decision Logic
-- Google Sheets Integration
-- JavaScript-based Risk Classification
-- Automatic Loan Approval/Rejection
-- Manual Review Detection
-- Gmail Email Notifications
-- Real-time Sheet Updates
-- End-to-End Workflow Automation
-- Low-Code n8n Implementation
+## Tools Used
 
----
+* n8n
+* Microsoft Excel
+* Gmail Integration
+* Power BI
 
-## 🛠 Tech Stack
+## Workflow Process
 
-- n8n Workflow Automation
-- JavaScript
-- Google Sheets API
-- Gmail Integration
-- Decision Logic
-- Risk Classification Engine
+1. Loan application data is stored in Excel.
+2. n8n reads applicant information.
+3. Risk assessment logic categorizes applicants.
+4. Automated emails are generated:
 
----
+   * Low Risk Approval
+   * Medium Risk Review
+   * High Risk Rejection
+5. Results are visualized using Power BI.
 
-## 📊 Workflow Overview
+## Project Files
 
-1. Execute Workflow
-2. Read Applicant Data from Google Sheets
-3. Process Data using JavaScript
-4. Evaluate Loan Risk
-5. Decision Routing:
-   - ✅ Low Risk → Loan Approved
-   - ⚠️ Medium Risk → Under Review
-   - ❌ High Risk → Loan Rejected
-6. Update Google Sheet
-7. Send Automated Email Notification
+### Workflow
 
----
+![Workflow](n8n_project.png)
 
-## 📈 Risk Classification
+### Loan Application Data
 
-### 🟢 Low Risk
-- Good Credit Score
-- Strong Repayment Capacity
-- Low Debt-to-Income Ratio
-- No Previous Defaults
+![Data](Google_Sheet.png)
 
-**Result:** Loan Approved
+### Low Risk Email
 
----
+![Low Risk](Low_Risk.jpeg)
 
-### 🟡 Medium Risk
-- Moderate Credit Profile
-- Additional Verification Required
-- Manual Assessment Needed
+### Medium Risk Email
 
-**Result:** Loan Under Review
+![Medium Risk](Medium_Risk_Alert.jpeg)
+
+### High Risk Email
+
+![High Risk](High_Risk_Alert.jpeg)
+
+# Power BI Dashboard
+
+## Objective
+
+To visualize loan approval data and generate actionable business insights.
 
 ---
 
-### 🔴 High Risk
-- Poor Credit Score
-- High Financial Risk
-- Low Repayment Capacity
-- Multiple Risk Indicators
+## Dashboard KPIs
 
-**Result:** Loan Rejected
-
----
-
-## 📧 Automated Email Notifications
-
-The system automatically sends customized emails for:
-
-- ✅ Loan Approved
-- ⚠️ Loan Under Review
-- ❌ Loan Rejected
-
-Each email includes:
-- Loan ID
-- Applicant Name
-- Risk Level
-- Loan Status
-- System Decision
-- Recommended Next Steps
+- Total Applications
+- Approved Loans
+- Rejected Loans
+- Approval Rate
+- Average Credit Score
+- High Risk Applicants
 
 ---
 
-## 📂 Project Components
+## Dashboard Features
 
-- n8n Workflow
-- Google Sheets Dataset
-- JavaScript Decision Logic
-- Gmail Notification System
-- Automated Risk Classification
+### Risk Analysis
+- Low Risk Applicants
+- Medium Risk Applicants
+- High Risk Applicants
 
----
+### Loan Status Analysis
+- Approved
+- Rejected
+- Review
 
-## 🎯 Use Cases
+### Employment Analysis
+- Salaried Applicants
+- Self-Employed Applicants
 
-- Banking Automation
-- FinTech Applications
-- Loan Processing Systems
-- Credit Risk Assessment
-- AI-based Financial Decision Systems
-- Workflow Automation Projects
+### Business Insights
+- Approval trends
+- Risk distribution
+- Loan performance metrics
 
----
-
-## 🔮 Future Enhancements
-
-- Machine Learning Risk Prediction
-- Credit Bureau API Integration
-- Real-time Dashboard
-- SMS & WhatsApp Notifications
-- Fraud Detection Module
-- Document Verification
-- KYC Automation
-- Loan Analytics Dashboard
+### Recommendations
+- Improve high-risk applicant screening
+- Promote low-risk lending
+- Monitor credit behavior
 
 ---
 
-## 👨‍💻 Author
+## Power BI Dashboard Screenshot
+
+![Power BI Dashboard](Dashboard.png)
+
+---
+
+# Repository Contents
+
+| File | Description |
+|--------|-------------|
+| Loan_Approval_Automation.json | n8n workflow export |
+| Loan_Dataset_Industry_Ready.xlsx | Loan dataset |
+| n8n_workflow.png | Workflow architecture |
+| google_sheet.png | Google Sheets integration |
+| low_risk.jpeg | Low risk email |
+| medium_risk_alert.jpeg | Medium risk email |
+| high_risk_alert.jpeg | High risk email |
+| dashboard.png | Power BI dashboard |
+
+---
+
+# Key Skills Demonstrated
+
+- Workflow Automation
+- Power BI Dashboarding
+- Financial Analysis
+- Business Intelligence
+- Google Sheets Automation
+- Email Automation
+- Risk Assessment
+- Data Visualization
+
+---
+
+# Business Impact
+
+- Reduced manual loan processing effort
+- Faster approval decisions
+- Improved customer communication
+- Enhanced financial guidance accessibility
+- Better data-driven decision making
+- Real-time reporting and monitoring
+
+---
+
+## Business Benefits
+
+* Reduces manual effort
+* Improves response time
+* Standardizes loan decisions
+* Supports risk management
+* Enhances reporting and monitoring
+
+## Author
 
 **Shravya Jindal**
+MBA Finance
